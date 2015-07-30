@@ -1,0 +1,7 @@
+2015-07-30 08:39:42,519 [8] FATAL FishCook.MainClass [FishCook, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null] - foo
+2015-07-30 08:42:04,971 [9] ERROR FishCook.MainClass [FishCook, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null] - An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+System.TypeInitializationException: The type initializer for 'SdlDotNet.Graphics.Video' threw an exception. ---> System.BadImageFormatException: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+   at Tao.Sdl.Sdl.SDL_WasInit(Int32 flags)
+   at SdlDotNet.Graphics.Video.Initialize()
+   at SdlDotNet.Graphics.Video..cctor()
+   --- End of inner exception stack trace ---

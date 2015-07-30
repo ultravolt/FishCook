@@ -1,0 +1,4 @@
+C:\Users\padillal\OneDrive\Programming\FishCook\FishCookLib\bin\Debug\FishCookLib.dll
+C:\Users\padillal\OneDrive\Programming\FishCook\FishCookLib\bin\Debug\FishCookLib.pdb
+C:\Users\padillal\OneDrive\Programming\FishCook\FishCookLib\obj\Debug\FishCookLib.dll
+C:\Users\padillal\OneDrive\Programming\FishCook\FishCookLib\obj\Debug\FishCookLib.pdb

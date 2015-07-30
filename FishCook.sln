@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{443C9DC8-585C-41C0-81AE-E46DE0A4154A}"
+	ProjectSection(SolutionItems) = preProject
+		FishCook.vsmdi = FishCook.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishCook", "FishCook\FishCook.csproj", "{5F28A548-5CC3-43BA-9374-1049FB309923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishCookTest", "FishCookTest\FishCookTest.csproj", "{E519CC3A-644F-4B59-BBA9-F0106174BCB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishCook32", "FishCook32\FishCook32.csproj", "{223C7B22-87A2-40B8-89F3-B1E08141893B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishCookLib", "FishCookLib\FishCookLib.csproj", "{181D0633-3FBF-47A6-9C10-DBC9027CE490}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F28A548-5CC3-43BA-9374-1049FB309923}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5F28A548-5CC3-43BA-9374-1049FB309923}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{5F28A548-5CC3-43BA-9374-1049FB309923}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{5F28A548-5CC3-43BA-9374-1049FB309923}.Debug|x86.ActiveCfg = Debug|x86
+		{5F28A548-5CC3-43BA-9374-1049FB309923}.Debug|x86.Build.0 = Debug|x86
+		{5F28A548-5CC3-43BA-9374-1049FB309923}.Release|Any CPU.ActiveCfg = Release|x86
+		{5F28A548-5CC3-43BA-9374-1049FB309923}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{5F28A548-5CC3-43BA-9374-1049FB309923}.Release|Mixed Platforms.Build.0 = Release|x86
+		{5F28A548-5CC3-43BA-9374-1049FB309923}.Release|x86.ActiveCfg = Release|x86
+		{5F28A548-5CC3-43BA-9374-1049FB309923}.Release|x86.Build.0 = Release|x86
+		{E519CC3A-644F-4B59-BBA9-F0106174BCB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E519CC3A-644F-4B59-BBA9-F0106174BCB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E519CC3A-644F-4B59-BBA9-F0106174BCB2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E519CC3A-644F-4B59-BBA9-F0106174BCB2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E519CC3A-644F-4B59-BBA9-F0106174BCB2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E519CC3A-644F-4B59-BBA9-F0106174BCB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E519CC3A-644F-4B59-BBA9-F0106174BCB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E519CC3A-644F-4B59-BBA9-F0106174BCB2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E519CC3A-644F-4B59-BBA9-F0106174BCB2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E519CC3A-644F-4B59-BBA9-F0106174BCB2}.Release|x86.ActiveCfg = Release|Any CPU
+		{223C7B22-87A2-40B8-89F3-B1E08141893B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223C7B22-87A2-40B8-89F3-B1E08141893B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223C7B22-87A2-40B8-89F3-B1E08141893B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{223C7B22-87A2-40B8-89F3-B1E08141893B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{223C7B22-87A2-40B8-89F3-B1E08141893B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{223C7B22-87A2-40B8-89F3-B1E08141893B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223C7B22-87A2-40B8-89F3-B1E08141893B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223C7B22-87A2-40B8-89F3-B1E08141893B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{223C7B22-87A2-40B8-89F3-B1E08141893B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{223C7B22-87A2-40B8-89F3-B1E08141893B}.Release|x86.ActiveCfg = Release|Any CPU
+		{181D0633-3FBF-47A6-9C10-DBC9027CE490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181D0633-3FBF-47A6-9C10-DBC9027CE490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181D0633-3FBF-47A6-9C10-DBC9027CE490}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{181D0633-3FBF-47A6-9C10-DBC9027CE490}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{181D0633-3FBF-47A6-9C10-DBC9027CE490}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{181D0633-3FBF-47A6-9C10-DBC9027CE490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181D0633-3FBF-47A6-9C10-DBC9027CE490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181D0633-3FBF-47A6-9C10-DBC9027CE490}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{181D0633-3FBF-47A6-9C10-DBC9027CE490}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{181D0633-3FBF-47A6-9C10-DBC9027CE490}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F28A548-5CC3-43BA-9374-1049FB309923} = {443C9DC8-585C-41C0-81AE-E46DE0A4154A}
+		{223C7B22-87A2-40B8-89F3-B1E08141893B} = {443C9DC8-585C-41C0-81AE-E46DE0A4154A}
+		{181D0633-3FBF-47A6-9C10-DBC9027CE490} = {443C9DC8-585C-41C0-81AE-E46DE0A4154A}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FishCook.vsmdi
+	EndGlobalSection
+EndGlobal
