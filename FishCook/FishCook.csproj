@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{5F28A548-5CC3-43BA-9374-1049FB309923}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -37,173 +35,172 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Drawing" />
     <Reference Include="SdlDotNet">
-      <HintPath>.\sdldotnet-6.1.0\bin\SdlDotNet.dll</HintPath>
+      <HintPath>sdldotnet-6.1.0\bin\SdlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Tao.Sdl">
-      <HintPath>.\sdldotnet-6.1.0\bin\Tao.Sdl.dll</HintPath>
+      <HintPath>sdldotnet-6.1.0\bin\Tao.Sdl.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include=".\Main.cs" />
-    <Compile Include=".\SDLApplication.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="SDLApplication.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".\images\boards\Market.png">
+    <Content Include="images\boards\Market.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\boards\FishMarket.png">
+    <Content Include="images\boards\FishMarket.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_10.png">
+    <Content Include="images\cards\Assets_img_10.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_11.png">
+    <Content Include="images\cards\Assets_img_11.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_12.png">
+    <Content Include="images\cards\Assets_img_12.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_13.png">
+    <Content Include="images\cards\Assets_img_13.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_14.png">
+    <Content Include="images\cards\Assets_img_14.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_15.png">
+    <Content Include="images\cards\Assets_img_15.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_16.png">
+    <Content Include="images\cards\Assets_img_16.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_17.png">
+    <Content Include="images\cards\Assets_img_17.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_18.png">
+    <Content Include="images\cards\Assets_img_18.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_19.png">
+    <Content Include="images\cards\Assets_img_19.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_2.png">
+    <Content Include="images\cards\Assets_img_2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_20.png">
+    <Content Include="images\cards\Assets_img_20.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_21.png">
+    <Content Include="images\cards\Assets_img_21.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_22.png">
+    <Content Include="images\cards\Assets_img_22.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_23.png">
+    <Content Include="images\cards\Assets_img_23.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_24.png">
+    <Content Include="images\cards\Assets_img_24.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_25.png">
+    <Content Include="images\cards\Assets_img_25.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_26.png">
+    <Content Include="images\cards\Assets_img_26.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_27.png">
+    <Content Include="images\cards\Assets_img_27.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_28.png">
+    <Content Include="images\cards\Assets_img_28.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_29.png">
+    <Content Include="images\cards\Assets_img_29.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_3.png">
+    <Content Include="images\cards\Assets_img_3.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_30.png">
+    <Content Include="images\cards\Assets_img_30.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_31.png">
+    <Content Include="images\cards\Assets_img_31.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_32.png">
+    <Content Include="images\cards\Assets_img_32.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_33.png">
+    <Content Include="images\cards\Assets_img_33.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_34.png">
+    <Content Include="images\cards\Assets_img_34.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_35.png">
+    <Content Include="images\cards\Assets_img_35.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_36.png">
+    <Content Include="images\cards\Assets_img_36.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_37.png">
+    <Content Include="images\cards\Assets_img_37.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_4.png">
+    <Content Include="images\cards\Assets_img_4.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_5.png">
+    <Content Include="images\cards\Assets_img_5.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_6.png">
+    <Content Include="images\cards\Assets_img_6.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_7.png">
+    <Content Include="images\cards\Assets_img_7.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_8.png">
+    <Content Include="images\cards\Assets_img_8.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\Assets_img_9.png">
+    <Content Include="images\cards\Assets_img_9.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\cards\cards.xml">
+    <Content Include="images\cards\cards.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\counters\b.png">
+    <Content Include="images\counters\b.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\counters\g.png">
+    <Content Include="images\counters\g.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\counters\p.png">
+    <Content Include="images\counters\p.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\counters\r.png">
+    <Content Include="images\counters\r.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\counters\w.png">
+    <Content Include="images\counters\w.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\counters\y.png">
+    <Content Include="images\counters\y.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\rules\Assets_img_44.png">
+    <Content Include="images\rules\Assets_img_44.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\rules\Assets_img_45.png">
+    <Content Include="images\rules\Assets_img_45.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\rules\Assets_img_46.png">
+    <Content Include="images\rules\Assets_img_46.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\rules\Assets_img_47.png">
+    <Content Include="images\rules\Assets_img_47.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".\images\rules\Assets_img_48.png">
+    <Content Include="images\rules\Assets_img_48.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -218,10 +215,31 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="libjpeg-8.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="libpng15-15.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="libtiff-5.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="libwebp-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="SDL_image.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="zlib1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="C:\dev\FishCook\FishCook.git\FishCook\SDL.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FishCookLib\FishCookLib.csproj">
-      <Project>{181d0633-3fbf-47a6-9c10-dbc9027ce490}</Project>
+      <Project>{181D0633-3FBF-47A6-9C10-DBC9027CE490}</Project>
       <Name>FishCookLib</Name>
     </ProjectReference>
   </ItemGroup>

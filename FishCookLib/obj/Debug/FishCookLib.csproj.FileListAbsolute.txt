@@ -2,3 +2,7 @@ C:\Users\padillal\OneDrive\Programming\FishCook\FishCookLib\bin\Debug\FishCookLi
 C:\Users\padillal\OneDrive\Programming\FishCook\FishCookLib\bin\Debug\FishCookLib.pdb
 C:\Users\padillal\OneDrive\Programming\FishCook\FishCookLib\obj\Debug\FishCookLib.dll
 C:\Users\padillal\OneDrive\Programming\FishCook\FishCookLib\obj\Debug\FishCookLib.pdb
+c:\dev\FishCook\FishCook.git\FishCookLib\bin\Debug\FishCookLib.dll
+c:\dev\FishCook\FishCook.git\FishCookLib\bin\Debug\FishCookLib.pdb
+c:\dev\FishCook\FishCook.git\FishCookLib\obj\Debug\FishCookLib.dll
+c:\dev\FishCook\FishCook.git\FishCookLib\obj\Debug\FishCookLib.pdb
