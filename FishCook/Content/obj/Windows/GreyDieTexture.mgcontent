@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/dev/FishCook/FishCook/Content/GreyDieTexture.png</SourceFile>
-  <SourceTime>2016-03-27T06:10:36.8738165-04:00</SourceTime>
-  <DestFile>C:/dev/FishCook/FishCook/Content/bin/Windows/GreyDieTexture.xnb</DestFile>
-  <DestTime>2016-03-27T06:31:56.7087309-04:00</DestTime>
+  <SourceFile>C:/dev/Games/FishCook.git/FishCook/Content/GreyDieTexture.png</SourceFile>
+  <SourceTime>2016-03-29T08:15:11.9675051-04:00</SourceTime>
+  <DestFile>C:/dev/Games/FishCook.git/FishCook/Content/bin/Windows/GreyDieTexture.xnb</DestFile>
+  <DestTime>2016-03-29T09:36:02.436213-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-15T22:18:04-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

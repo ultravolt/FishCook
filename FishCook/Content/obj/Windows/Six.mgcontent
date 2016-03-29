@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/dev/FishCook/FishCook/Content/Six.png</SourceFile>
-  <SourceTime>2016-03-27T05:28:54.1225702-04:00</SourceTime>
-  <DestFile>C:/dev/FishCook/FishCook/Content/bin/Windows/Six.xnb</DestFile>
-  <DestTime>2016-03-27T05:53:21.0553652-04:00</DestTime>
+  <SourceFile>C:/dev/Games/FishCook.git/FishCook/Content/Six.png</SourceFile>
+  <SourceTime>2016-03-29T08:15:11.9705012-04:00</SourceTime>
+  <DestFile>C:/dev/Games/FishCook.git/FishCook/Content/bin/Windows/Six.xnb</DestFile>
+  <DestTime>2016-03-29T09:36:02.4206026-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-15T22:18:04-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
