@@ -77,7 +77,8 @@ namespace FishCook
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            this.Emulogic = Content.Load<SpriteFont>(nameof(Emulogic));
+            var x = nameof(Emulogic);
+            this.Emulogic = Content.Load<SpriteFont>(x);
             var rcc = new FishCookLib.RecipeCardDeck();
             this.RecipeCardTextureLookup = new Dictionary<int, Texture2D>();
             rcc.Select(recipeCard => recipeCard.Source).ToList().ForEach(source =>
