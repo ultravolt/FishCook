@@ -8,11 +8,11 @@ namespace FishCookLib
 {
     public abstract class Market 
     {
-        public Resource[][] Inventory;
-        
-        public Market()
-        {
-        }
+        public abstract Resource[][] Inventory { get; set; }
+
+        public abstract void Refill();
+
+        public abstract override string ToString();
 
     }
 }

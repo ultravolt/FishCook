@@ -9,23 +9,66 @@ namespace FishCookLib
 {
     public class FishMarket : Market
     {
-        public new Resource[][] Inventory;
+        public override Resource[][] Inventory { get; set; }
         public override string ToString()
         {
             var sb = new StringBuilder();
             Inventory.ToList().ForEach(x => sb.AppendLine(String.Join("\t", x.Select(y => y.Value))));
             return sb.ToString();
         }
-        public void Refill()
+        public override void Refill()
         {
-            Inventory = new Resource[][]{
-                new Resource[] {new Resource {Cost=10}, new Resource {Cost=11 }, new Resource {Cost=13 }, new Resource {Cost=16 }, new Resource {Cost=20 } },
-                new Resource[] {new Resource {Cost=8 }, new Resource {Cost=9 }, new Resource {Cost=11 }, new Resource {Cost=13 }, new Resource {Cost=16 } },
-                new Resource[] {new Resource {Cost=6 }, new Resource {Cost=7 }, new Resource {Cost=8 }, new Resource {Cost=10 }, new Resource {Cost=12 } },
-                new Resource[] {new Resource {Cost=4 }, new Resource {Cost=5 }, new Resource {Cost=6 }, new Resource {Cost=7 }, new Resource {Cost=9 } },
-                new Resource[] {new Resource {Cost=2 }, new Resource {Cost=3 }, new Resource {Cost=4 }, new Resource {Cost=5 }, new Resource {Cost=7 } },
-                new Resource[] {new Resource {Cost=1 }, new Resource {Cost=2 }, new Resource {Cost=3 }, new Resource {Cost=4 }, new Resource {Cost=5 } }
-                };
+            Inventory = new Resource[][]
+            {
+                new Resource[] 
+                {
+                    new Resource {Cost=10 },
+                    new Resource {Cost=11 },
+                    new Resource {Cost=13 },
+                    new Resource {Cost=16 },
+                    new Resource {Cost=20 }
+                },
+                new Resource[] 
+                {
+                    new Resource {Cost=8 },
+                    new Resource {Cost=9 },
+                    new Resource {Cost=11 },
+                    new Resource {Cost=13 },
+                    new Resource {Cost=16 }
+                },
+                new Resource[] 
+                {
+                    new Resource {Cost=6 },
+                    new Resource {Cost=7 },
+                    new Resource {Cost=8 },
+                    new Resource {Cost=10 },
+                    new Resource {Cost=12 }
+                },
+                new Resource[] 
+                {
+                    new Resource {Cost=4 },
+                    new Resource {Cost=5 },
+                    new Resource {Cost=6 },
+                    new Resource {Cost=7 },
+                    new Resource {Cost=9 }
+                },
+                new Resource[] 
+                {
+                    new Resource {Cost=2 },
+                    new Resource {Cost=3 },
+                    new Resource {Cost=4 },
+                    new Resource {Cost=5 },
+                    new Resource {Cost=7 }
+                },
+                new Resource[] 
+                {
+                    new Resource {Cost=1 },
+                    new Resource {Cost=2 },
+                    new Resource {Cost=3 },
+                    new Resource {Cost=4 },
+                    new Resource {Cost=5 }
+                }
+            };
             int l = Inventory[0].Length;
 
             var rolls = D6.Roll(12);
@@ -59,5 +102,6 @@ namespace FishCookLib
             Debug.WriteLine(a);
 
         }
+
     }
 }
