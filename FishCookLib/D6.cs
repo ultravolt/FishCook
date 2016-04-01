@@ -14,30 +14,30 @@ namespace FishCookLib
         public override void GetBytes(byte[] buffer)
         {
             r.GetBytes(buffer);
-        }
+       }
 
         public static double NextDouble()
         {
             byte[] b = new byte[4];
             r.GetBytes(b);
             return (double)BitConverter.ToUInt32(b, 0) / UInt32.MaxValue;
-        }
+       }
 
         private static int Next(int minValue, int maxValue)
         {
             int mv = maxValue + 1;
             return (int)Math.Round(NextDouble() * (mv - minValue - 1)) + minValue;
-        }
+       }
 
         private static int Next()
         {
             return Next(0, Int32.MaxValue);
-        }
+       }
 
         private int Next(int maxValue)
         {
             return Next(0, maxValue);
-        }
+       }
 
         public static List<int> Roll(int number)
         {
@@ -47,8 +47,8 @@ namespace FishCookLib
             for (int i = 0; i < number; i++)
             {
                 rv.Add(Next(1, 6));
-            }
+           }
             return rv;
-        }
-    }
+       }
+   }
 }

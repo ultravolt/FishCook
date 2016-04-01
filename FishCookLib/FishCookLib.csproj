@@ -43,14 +43,16 @@
     <Compile Include="Card.cs" />
     <Compile Include="D6.cs" />
     <Compile Include="Day.cs" />
+    <Compile Include="FarmedResource.cs" />
     <Compile Include="FarmersMarket.cs" />
     <Compile Include="FishMarket.cs" />
+    <Compile Include="FishResource.cs" />
     <Compile Include="GameLogic.cs" />
-    <Compile Include="Market.cs" />
+    <Compile Include="IMarket.cs" />
     <Compile Include="MaximumPlayersException.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resource.cs" />
+    <Compile Include="IResource.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="RecipeCard.cs" />

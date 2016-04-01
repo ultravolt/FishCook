@@ -7,74 +7,78 @@ using System.Threading.Tasks;
 
 namespace FishCookLib
 {
-    public class FishMarket : Market
+    public class FishMarket : IMarket
     {
-        public override Resource[][] Inventory { get; set; }
+        public IResource[][] Inventory { get; set;}
         public override string ToString()
         {
             var sb = new StringBuilder();
             Inventory.ToList().ForEach(x => sb.AppendLine(String.Join("\t", x.Select(y => y.Value))));
             return sb.ToString();
-        }
-        public override void Refill()
+       }
+        public FishMarket()
         {
-            Inventory = new Resource[][]
+            this.Refill();
+        }
+        public void Refill()
+        {
+            Inventory = new FishResource[][]
             {
-                new Resource[] 
+                new FishResource[] 
                 {
-                    new Resource {Cost=10 },
-                    new Resource {Cost=11 },
-                    new Resource {Cost=13 },
-                    new Resource {Cost=16 },
-                    new Resource {Cost=20 }
-                },
-                new Resource[] 
+                    new FishResource {Cost=10},
+                    new FishResource {Cost=11},
+                    new FishResource {Cost=13},
+                    new FishResource {Cost=16},
+                    new FishResource {Cost=20}
+               },
+                new FishResource[] 
                 {
-                    new Resource {Cost=8 },
-                    new Resource {Cost=9 },
-                    new Resource {Cost=11 },
-                    new Resource {Cost=13 },
-                    new Resource {Cost=16 }
-                },
-                new Resource[] 
+                    new FishResource {Cost=8},
+                    new FishResource {Cost=9},
+                    new FishResource {Cost=11},
+                    new FishResource {Cost=13},
+                    new FishResource {Cost=16}
+               },
+                new FishResource[] 
                 {
-                    new Resource {Cost=6 },
-                    new Resource {Cost=7 },
-                    new Resource {Cost=8 },
-                    new Resource {Cost=10 },
-                    new Resource {Cost=12 }
-                },
-                new Resource[] 
+                    new FishResource {Cost=6},
+                    new FishResource {Cost=7},
+                    new FishResource {Cost=8},
+                    new FishResource {Cost=10},
+                    new FishResource {Cost=12}
+               },
+                new FishResource[] 
                 {
-                    new Resource {Cost=4 },
-                    new Resource {Cost=5 },
-                    new Resource {Cost=6 },
-                    new Resource {Cost=7 },
-                    new Resource {Cost=9 }
-                },
-                new Resource[] 
+                    new FishResource {Cost=4},
+                    new FishResource {Cost=5},
+                    new FishResource {Cost=6},
+                    new FishResource {Cost=7},
+                    new FishResource {Cost=9}
+               },
+                new FishResource[] 
                 {
-                    new Resource {Cost=2 },
-                    new Resource {Cost=3 },
-                    new Resource {Cost=4 },
-                    new Resource {Cost=5 },
-                    new Resource {Cost=7 }
-                },
-                new Resource[] 
+                    new FishResource {Cost=2},
+                    new FishResource {Cost=3},
+                    new FishResource {Cost=4},
+                    new FishResource {Cost=5},
+                    new FishResource {Cost=7}
+               },
+                new FishResource[] 
                 {
-                    new Resource {Cost=1 },
-                    new Resource {Cost=2 },
-                    new Resource {Cost=3 },
-                    new Resource {Cost=4 },
-                    new Resource {Cost=5 }
-                }
-            };
+                    new FishResource {Cost=1},
+                    new FishResource {Cost=2},
+                    new FishResource {Cost=3},
+                    new FishResource {Cost=4},
+                    new FishResource {Cost=5}
+               }
+           };
             int l = Inventory[0].Length;
 
             var rolls = D6.Roll(12);
             //test
-            //rolls = new List<int> { 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 };
-            var freq = new Dictionary<int, int> { { 6, 0 }, { 5, 0 }, { 4, 0 }, { 3, 0 }, { 2, 0 }, { 1, 0 } };
+            //rolls = new List<int> { 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6};
+            var freq = new Dictionary<int, int> { { 6, 0}, { 5, 0}, { 4, 0}, { 3, 0}, { 2, 0}, { 1, 0}};
             rolls.Distinct().OrderByDescending(x => x).ToList().ForEach(x => freq[x] = rolls.Where(y => y == x).Count());
             while (freq.Values.Any(x => x > l))
             {
@@ -85,7 +89,7 @@ namespace FishCookLib
                     r = D6.Roll(1).FirstOrDefault();
                 freq[kvp.Key] = d - 1;
                 freq[r]++;
-            }
+           }
 
             for (int i = 0; i < Inventory.Length; i++)
             {
@@ -95,13 +99,13 @@ namespace FishCookLib
                 for (int j = 0; j < match; j++)
                 {
                     this.Inventory[i][l - j - 1].Value = m;
-                }
+               }
 
-            }
+           }
             var a = this.ToString();
             Debug.WriteLine(a);
 
-        }
+       }
 
-    }
+   }
 }

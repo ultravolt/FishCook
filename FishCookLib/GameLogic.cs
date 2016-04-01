@@ -9,14 +9,14 @@ namespace FishCookLib
     public class GameLogic
     {
 
-        public List<Day> Days { get; set; }
+        public List<Day> Days { get; set;}
         public const byte MinPlayers = 2;
         public const byte MaxPlayers = 6;
-        public PlayerCollection Players { get; set; }
-        public RecipeCardDeck Recipes { get; set; }
+        public PlayerCollection Players { get; set;}
+        public RecipeCardDeck Recipes { get; set;}
 
-        public FishMarket FishMarket { get; set; }
-        public FarmersMarket FarmersMarket { get; set; }
+        public FishMarket FishMarket { get; set;}
+        public FarmersMarket FarmersMarket { get; set;}
 
         public int NumberOfDaysByPlayers {
             get
@@ -32,15 +32,15 @@ namespace FishCookLib
                         return 5;
                     default:
                         return 0;
-                }
-            }
+               }
+           }
 
-        }
+       }
         public GameLogic()
         {
             Initialize();
 
-        }
+       }
         public GameLogic(byte numberOfPlayers)
         {
             Initialize();
@@ -48,9 +48,9 @@ namespace FishCookLib
             for (int i = 0; i < numberOfPlayers; i++)
             {
                 this.Players.Add(new Player());
-            }
+           }
 
-        }
+       }
         private void Initialize()
         {
             Players = new PlayerCollection();
@@ -61,15 +61,15 @@ namespace FishCookLib
             Recipes.Clear();
             shuff.ForEach(x => Recipes.Push(x));
             Recipes.AreShuffled = true;
-        }
-    }
+       }
+   }
 
     public static class EnumerableExtensions
     {
         public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> source)
         {
             return source.Shuffle(new Random());
-        }
+       }
 
         public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> source, Random rng)
         {
@@ -77,7 +77,7 @@ namespace FishCookLib
             if (rng == null) throw new ArgumentNullException("rng");
 
             return source.ShuffleIterator(rng);
-        }
+       }
 
         private static IEnumerable<T> ShuffleIterator<T>(
             this IEnumerable<T> source, Random rng)
@@ -89,7 +89,7 @@ namespace FishCookLib
                 yield return buffer[j];
 
                 buffer[j] = buffer[i];
-            }
-        }
-    }
+           }
+       }
+   }
 }

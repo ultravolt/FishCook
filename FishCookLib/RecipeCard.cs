@@ -17,7 +17,7 @@ namespace FishCookLib
                 Ingredients = "r".ToCharArray(),
                 BaseValue = 14,
                 Bonus = 3
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_3",//.png
@@ -26,7 +26,7 @@ namespace FishCookLib
                 Ingredients = "b".ToCharArray(),
                 BaseValue = 16,
                 Bonus = 3
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_4",//.png
@@ -35,7 +35,7 @@ namespace FishCookLib
                 Ingredients = "p".ToCharArray(),
                 BaseValue = 18,
                 Bonus = 3
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_5",//.png
@@ -44,7 +44,7 @@ namespace FishCookLib
                 Ingredients = "yg".ToCharArray(),
                 BaseValue = 23,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_6",//.png
@@ -53,7 +53,7 @@ namespace FishCookLib
                 Ingredients = "wyp".ToCharArray(),
                 BaseValue = 32,
                 Bonus = 5
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_7",//.png
@@ -62,7 +62,7 @@ namespace FishCookLib
                 Ingredients = "rgb".ToCharArray(),
                 BaseValue = 34,
                 Bonus = 5
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_8",//.png
@@ -71,7 +71,7 @@ namespace FishCookLib
                 Ingredients = "w".ToCharArray(),
                 BaseValue = 13,
                 Bonus = 3
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_9",//.png
@@ -80,7 +80,7 @@ namespace FishCookLib
                 Ingredients = "r".ToCharArray(),
                 BaseValue = 15,
                 Bonus = 3
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_10",//.png
@@ -89,7 +89,7 @@ namespace FishCookLib
                 Ingredients = "wb".ToCharArray(),
                 BaseValue = 24,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_11",//.png
@@ -98,7 +98,7 @@ namespace FishCookLib
                 Ingredients = "gp".ToCharArray(),
                 BaseValue = 29,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_12",//.png
@@ -107,7 +107,7 @@ namespace FishCookLib
                 Ingredients = "wyg".ToCharArray(),
                 BaseValue = 30,
                 Bonus = 5
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_13",//.png
@@ -116,7 +116,7 @@ namespace FishCookLib
                 Ingredients = "yrb".ToCharArray(),
                 BaseValue = 33,
                 Bonus = 5
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_14",//.png
@@ -125,7 +125,7 @@ namespace FishCookLib
                 Ingredients = "w".ToCharArray(),
                 BaseValue = 15,
                 Bonus = 3
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_15",//.png
@@ -134,7 +134,7 @@ namespace FishCookLib
                 Ingredients = "b".ToCharArray(),
                 BaseValue = 19,
                 Bonus = 3
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_16",//.png
@@ -143,7 +143,7 @@ namespace FishCookLib
                 Ingredients = "wy".ToCharArray(),
                 BaseValue = 23,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_17",//.png
@@ -152,7 +152,7 @@ namespace FishCookLib
                 Ingredients = "yr".ToCharArray(),
                 BaseValue = 25,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_18",//.png
@@ -161,7 +161,7 @@ namespace FishCookLib
                 Ingredients = "yrp".ToCharArray(),
                 BaseValue = 37,
                 Bonus = 5
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_19",//.png
@@ -170,7 +170,7 @@ namespace FishCookLib
                 Ingredients = "rgb".ToCharArray(),
                 BaseValue = 37,
                 Bonus = 5
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_20",//.png
@@ -179,7 +179,7 @@ namespace FishCookLib
                 Ingredients = "y".ToCharArray(),
                 BaseValue = 19,
                 Bonus = 3
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_21",//.png
@@ -188,7 +188,7 @@ namespace FishCookLib
                 Ingredients = "wg".ToCharArray(),
                 BaseValue = 28,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_22",//.png
@@ -197,7 +197,7 @@ namespace FishCookLib
                 Ingredients = "gp".ToCharArray(),
                 BaseValue = 33,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_23",//.png
@@ -206,7 +206,7 @@ namespace FishCookLib
                 Ingredients = "wyb".ToCharArray(),
                 BaseValue = 36,
                 Bonus = 5
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_24",//.png
@@ -215,7 +215,7 @@ namespace FishCookLib
                 Ingredients = "wrp".ToCharArray(),
                 BaseValue = 39,
                 Bonus = 5
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_25",//.png
@@ -224,7 +224,7 @@ namespace FishCookLib
                 Ingredients = "ygp".ToCharArray(),
                 BaseValue = 41,
                 Bonus = 5
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_26",//.png
@@ -233,7 +233,7 @@ namespace FishCookLib
                 Ingredients = "w".ToCharArray(),
                 BaseValue = 21,
                 Bonus = 3
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_27",//.png
@@ -242,7 +242,7 @@ namespace FishCookLib
                 Ingredients = "wr".ToCharArray(),
                 BaseValue = 29,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_28",//.png
@@ -251,7 +251,7 @@ namespace FishCookLib
                 Ingredients = "yg".ToCharArray(),
                 BaseValue = 31,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_29",//.png
@@ -260,7 +260,7 @@ namespace FishCookLib
                 Ingredients = "rg".ToCharArray(),
                 BaseValue = 32,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_30",//.png
@@ -269,7 +269,7 @@ namespace FishCookLib
                 Ingredients = "yrp".ToCharArray(),
                 BaseValue = 43,
                 Bonus = 5
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_31",//.png
@@ -278,7 +278,7 @@ namespace FishCookLib
                 Ingredients = "wbp".ToCharArray(),
                 BaseValue = 44,
                 Bonus = 5
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_32",//.png
@@ -287,7 +287,7 @@ namespace FishCookLib
                 Ingredients = "b".ToCharArray(),
                 BaseValue = 28,
                 Bonus = 3
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_33",//.png
@@ -296,7 +296,7 @@ namespace FishCookLib
                 Ingredients = "wr".ToCharArray(),
                 BaseValue = 32,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_34",//.png
@@ -305,7 +305,7 @@ namespace FishCookLib
                 Ingredients = "yg".ToCharArray(),
                 BaseValue = 34,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_35",//.png
@@ -314,7 +314,7 @@ namespace FishCookLib
                 Ingredients = "gb".ToCharArray(),
                 BaseValue = 37,
                 Bonus = 4
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_36",//.png
@@ -323,7 +323,7 @@ namespace FishCookLib
                 Ingredients = "wrp".ToCharArray(),
                 BaseValue = 45,
                 Bonus = 5
-            });
+           });
             this.Push(new RecipeCard
             {
                 Source = "Assets_img_37",//.png
@@ -332,8 +332,8 @@ namespace FishCookLib
                 Ingredients = "ygb".ToCharArray(),
                 BaseValue = 45,
                 Bonus = 5
-            });
-        }
+           });
+       }
 
         public List<RecipeCard> Deal(int count)
         {
@@ -341,26 +341,26 @@ namespace FishCookLib
             for (int i=0; i< count; i++)
             {
                 rv.Add(this.Pop());
-            }
+           }
             return rv;
-        }
+       }
 
-        public bool AreShuffled { get; internal set; }
+        public bool AreShuffled { get; internal set;}
 
-    }
+   }
     public class RecipeCard : Card
     {
-        public short Bonus { get; internal set; }
-        public short Fish { get; internal set; }
-        public char[] Ingredients { get; internal set; }
-        public string Source { get; internal set; }
-        public string Title { get; internal set; }
-        public short BaseValue { get; internal set; }
+        public short Bonus { get; internal set;}
+        public short Fish { get; internal set;}
+        public char[] Ingredients { get; internal set;}
+        public string Source { get; internal set;}
+        public string Title { get; internal set;}
+        public short BaseValue { get; internal set;}
 
         public override string ToString()
         {
             return this.Title;
-        }
+       }
 
-    }
+   }
 }
