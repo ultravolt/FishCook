@@ -75,7 +75,7 @@ namespace FishCookLib
            };
             int l = Inventory[0].Length;
 
-            var rolls = D6.Roll(12);
+            var rolls = Random.D6.Roll(12);
             //test
             //rolls = new List<int> { 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6};
             var freq = new Dictionary<int, int> { { 6, 0}, { 5, 0}, { 4, 0}, { 3, 0}, { 2, 0}, { 1, 0}};
@@ -84,9 +84,9 @@ namespace FishCookLib
             {
                 var kvp = freq.FirstOrDefault(x => x.Value > l);
                 var d = kvp.Value;
-                var r = D6.Roll(1).FirstOrDefault();
+                var r = Random.D6.Roll(1).FirstOrDefault();
                 while (r == d)
-                    r = D6.Roll(1).FirstOrDefault();
+                    r = Random.D6.Roll(1).FirstOrDefault();
                 freq[kvp.Key] = d - 1;
                 freq[r]++;
            }

@@ -83,7 +83,7 @@ namespace FishCookLib
             rolls.Clear();
             foreach(var resourceArray in this.Inventory)
             {
-                var d6 = (byte)D6.Roll(1).FirstOrDefault();
+                var d6 = (byte)Random.D6.Roll(1).FirstOrDefault();
                 rolls.Add(d6);
                 foreach (var resource in resourceArray.Cast<FarmedResource>())
                 {
