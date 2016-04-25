@@ -78,7 +78,7 @@ namespace FishCookLib
             var buffer = source.ToList();
             for (int i = 0; i < buffer.Count; i++)
             {
-                int j = Random.Next(i, buffer.Count);
+                int j = Random.Next(i, buffer.Count-1);
                 yield return buffer[j];
 
                 buffer[j] = buffer[i];

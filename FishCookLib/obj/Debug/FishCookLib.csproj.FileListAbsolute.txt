@@ -2,3 +2,4 @@ C:\dev\Games\FishCook.git\FishCookLib\bin\Debug\FishCookLib.dll
 C:\dev\Games\FishCook.git\FishCookLib\bin\Debug\FishCookLib.pdb
 C:\dev\Games\FishCook.git\FishCookLib\obj\Debug\FishCookLib.dll
 C:\dev\Games\FishCook.git\FishCookLib\obj\Debug\FishCookLib.pdb
+C:\dev\Games\FishCook.git\FishCookLib\obj\Debug\FishCookLib.csprojResolveAssemblyReference.cache
