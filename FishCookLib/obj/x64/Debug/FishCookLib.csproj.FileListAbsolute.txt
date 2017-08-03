@@ -1,0 +1,5 @@
+D:\Dev\FishCook.git\FishCookLib\bin\x64\Debug\FishCookLib.dll
+D:\Dev\FishCook.git\FishCookLib\bin\x64\Debug\FishCookLib.pdb
+D:\Dev\FishCook.git\FishCookLib\obj\x64\Debug\FishCookLib.csprojResolveAssemblyReference.cache
+D:\Dev\FishCook.git\FishCookLib\obj\x64\Debug\FishCookLib.dll
+D:\Dev\FishCook.git\FishCookLib\obj\x64\Debug\FishCookLib.pdb
